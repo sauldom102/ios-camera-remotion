@@ -13,7 +13,7 @@ const Compositions: FC = () => {
         width={1080}
         height={1920}
         fps={60}
-        durationInFrames={60 * 3 * 7}
+        durationInFrames={60 * 7 * 2}
         schema={z.object({
           image: z.string().url(),
           previousImage: z.string().url(),

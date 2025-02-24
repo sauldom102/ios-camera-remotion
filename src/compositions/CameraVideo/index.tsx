@@ -25,7 +25,7 @@ const CameraVideo: FC<Props> = ({
       <ExploringImage
         src={image}
         filter={filter}
-        transitionDuration={fps * 3}
+        transitionDuration={fps * 2}
         numberOfLoops={1}
         scale={1.5}
       />
